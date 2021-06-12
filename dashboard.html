@@ -1,0 +1,283 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+   <meta charset="utf-8">
+   <title>M&D Overview || Dashboard</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <!-- Favicons -->
+   <link rel="icon" href="asset/img/favicon.png">
+   <link rel="icon" href="asset/img/favicons/favicon.png">
+   <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+   <link rel="stylesheet" href="asset/css/fontawsome.css">
+   <link rel="stylesheet" href="asset/css/style.css">
+   <link rel="stylesheet" href="asset/css/responsive.css">
+   <!-- this is for mordanizar js link -->
+   <script src="asset/js/vendor/modernizr-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+  <header id="dashboard_header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-2">
+          <div class="dashboard_header_logo">
+            <a href="dashboard.html">
+              <img src="asset/img/logo.png" class="img-fluid" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-md-10">
+          <div class="dashboard_header_right text-end">
+            <div class="right_btn">
+              <a href="#" class="btn btn-outline-gray btn-sm"><i class="fa fa-star text-gold"></i> Available Points: 34</a>
+              <a href="#" class="btn btn-main btn-sm"><i class="fa fa-plus-circle btn-md"></i> Add Credit</a>
+            </div>
+            <div class="right_user_dropdown">
+              <div class="dropdown">
+                <button class="user_dropmain_btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="asset/img/user.png" alt=""> <img src="asset/img/arrow-down.png" alt="">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <div class="user_profile_info">
+                    <h4>Hayden Bleasel</h4>
+                    <p>ui/ux Designer</p>
+                  </div>
+                  <div class="user_settings_link">
+                    <ul>
+                      <li><a href="#"><i class="fal fa-cog"></i> Account Settings</a></li>
+                      <li><a href="#"><i class="fal fa-bolt"></i> Activity Log</a></li>
+                      <hr class="dropdown-divider">
+                      <li><a href="#"><i class="fal fa-layer-group"></i> Page</a></li>
+                      <li><a href="#"><i class="fal fa-user-graduate"></i> Groups</a></li>
+                      <li><a href="#"><i class="fal fa-calendar"></i> Events</a></li>
+                      <hr class="dropdown-divider">
+                      <li><a href="#"><i class="fal fa-briefcase"></i> Business Manager</a></li>
+                      <hr class="dropdown-divider">
+                      <li><a href="#"><i class="fal fa-sign-out"></i> Sign Out</a></li>
+                    </ul>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+  <div class="app_main_wrapper">
+    <div class="app_sidebar">
+      <div class="app_sidebar_wrapper">
+        <ul>
+          <li class="active">
+            <a href="#">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.4955 7.22065L7.49545 0.553987C7.24278 0.272654 6.75745 0.272654 6.50479 0.553987L0.504785 7.22065C0.328119 7.41599 0.284119 7.69732 0.391452 7.93799C0.498119 8.17865 0.736785 8.33332 1.00012 8.33332H2.33345V13C2.33345 13.368 2.63145 13.6667 3.00012 13.6667H5.00012C5.36878 13.6667 5.66678 13.368 5.66678 13V10.3333H8.33345V13C8.33345 13.368 8.63145 13.6667 9.00012 13.6667H11.0001C11.3688 13.6667 11.6668 13.368 11.6668 13V8.33332H13.0001C13.2635 8.33332 13.5021 8.17865 13.6088 7.93799C13.7161 7.69732 13.6721 7.41665 13.4955 7.22065Z" fill="#6A6A6A"/>
+              </svg>  
+              Overview
+            </a>
+          </li>
+          <li>
+            <a href="#">         
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.66667 0H0.666667C0.298667 0 0 0.298667 0 0.666667V5.66667C0 6.03467 0.298667 6.33333 0.666667 6.33333H4.66667C5.03467 6.33333 5.33333 6.03467 5.33333 5.66667V0.666667C5.33333 0.298667 5.03467 0 4.66667 0ZM4 5H1.33333V1.33333H4V5ZM7.33333 4.33333H11.3333C11.702 4.33333 12 4.03467 12 3.66667V0.666667C12 0.298667 11.702 0 11.3333 0H7.33333C6.96467 0 6.66667 0.298667 6.66667 0.666667V3.66667C6.66667 4.03467 6.96467 4.33333 7.33333 4.33333ZM8 1.33333H10.6667V3H8V1.33333ZM0 11.3333C0 11.7013 0.298667 12 0.666667 12H4.66667C5.03467 12 5.33333 11.7013 5.33333 11.3333V8.33333C5.33333 7.96533 5.03467 7.66667 4.66667 7.66667H0.666667C0.298667 7.66667 0 7.96533 0 8.33333V11.3333ZM1.33333 9H4V10.6667H1.33333V9ZM6.66667 11.3333C6.66667 11.7013 6.96467 12 7.33333 12H11.3333C11.702 12 12 11.7013 12 11.3333V6.33333C12 5.96533 11.702 5.66667 11.3333 5.66667H7.33333C6.96467 5.66667 6.66667 5.96533 6.66667 6.33333V11.3333ZM8 7H10.6667V10.6667H8V7Z" fill="#6A6A6A"/>
+              </svg>  
+              Sessions
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0692 5.36533C10.4719 4.67933 10.6506 3.88 10.5699 3.072C10.4506 1.88267 9.78655 0.831333 8.70122 0.112L7.96455 1.22267C8.71055 1.71733 9.16455 2.422 9.24322 3.20533C9.31655 3.942 9.05655 4.668 8.52855 5.196L7.73389 5.99066L8.81255 6.30733C11.6339 7.134 11.6666 9.97133 11.6666 10H12.9999C12.9999 8.80733 12.3626 6.47667 10.0692 5.36533Z" fill="#6A6A6A"/>
+                <path d="M5.33325 5.99999C6.80392 5.99999 7.99992 4.80399 7.99992 3.33332C7.99992 1.86266 6.80392 0.666656 5.33325 0.666656C3.86259 0.666656 2.66659 1.86266 2.66659 3.33332C2.66659 4.80399 3.86259 5.99999 5.33325 5.99999ZM5.33325 1.99999C6.06859 1.99999 6.66659 2.59799 6.66659 3.33332C6.66659 4.06866 6.06859 4.66666 5.33325 4.66666C4.59792 4.66666 3.99992 4.06866 3.99992 3.33332C3.99992 2.59799 4.59792 1.99999 5.33325 1.99999ZM6.33325 6.66666H4.33325C2.12725 6.66666 0.333252 8.46066 0.333252 10.6667V11.3333H1.66659V10.6667C1.66659 9.19599 2.86259 7.99999 4.33325 7.99999H6.33325C7.80392 7.99999 8.99992 9.19599 8.99992 10.6667V11.3333H10.3333V10.6667C10.3333 8.46066 8.53925 6.66666 6.33325 6.66666Z" fill="#6A6A6A"/>
+                </svg>  
+                Mentors
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="app_main_container">
+      <div class="app_content_wrapper">
+        <div class="welcome_message">
+          <h3>Hello Harry,</h3>
+          <p>It is a long established fact that a reader will be distracted ayout.</p>
+        </div>
+        <div class="sessions_dashboard">
+          <div class="row">
+            <div class="col-xl-8 col-lg-8">
+              <div class="title_blocks_2">
+                <h4>Sessions</h4>
+                <p>Various versions have evolved over the years, sometimes by accident.</p>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4">
+              <div class="search_session text-end">
+                <div class="search_with_icon">
+                  <input type="text" placeholder="Search">
+                  <span class="icon"><i class="far fa-search"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="session_card_wrapper">
+              <div class="row">
+                <div class="col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="offer_card_item">
+                    <h5>Interview Service</h5>
+                    <h3>Mock Interview</h3>
+                    <p>It is a long established fact that a reader of a page when looking at its layout.</p>
+                    <ul>
+                      <li><img src="asset/img/avatar1.png" alt=""> Lisa Cleghorn</li>
+                      <li><img src="asset/img/coin-base.png" alt=""> Credit: 20</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-main d-block">Book Slot</a>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="offer_card_item">
+                    <h5>Interview Service</h5>
+                    <h3>Mock Interview</h3>
+                    <p>It is a long established fact that a reader of a page when looking at its layout.</p>
+                    <ul>
+                      <li><img src="asset/img/avatar1.png" alt=""> Lisa Cleghorn</li>
+                      <li><img src="asset/img/coin-base.png" alt=""> Credit: 20</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-main d-block">Book Slot</a>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="offer_card_item">
+                    <h5>Interview Service</h5>
+                    <h3>Mock Interview</h3>
+                    <p>It is a long established fact that a reader of a page when looking at its layout.</p>
+                    <ul>
+                      <li><img src="asset/img/avatar1.png" alt=""> Lisa Cleghorn</li>
+                      <li><img src="asset/img/coin-base.png" alt=""> Credit: 20</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-main d-block">Book Slot</a>
+                  </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="offer_card_item">
+                    <h5>Interview Service</h5>
+                    <h3>Mock Interview</h3>
+                    <p>It is a long established fact that a reader of a page when looking at its layout.</p>
+                    <ul>
+                      <li><img src="asset/img/avatar1.png" alt=""> Lisa Cleghorn</li>
+                      <li><img src="asset/img/coin-base.png" alt=""> Credit: 20</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline-main d-block">Book Slot</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pagination_area text-end">
+              <ul>
+                <li><a href="#"><i class="far fa-arrow-left"></i> Previous</a></li>
+                <li><span>4</span> of 50</li>
+                <li class="active"><a href="#">Next <i class="far fa-arrow-right"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="meet_mentor_dashbaord">
+          <div class="row">
+            <div class="col-12">
+              <div class="title_blocks_2">
+                <h4>Meet Mentors</h4>
+                <p>Various versions have evolved over the years, sometimes by accident.</p>
+              </div>
+              <div class="meet_mentors_main_wrapper">
+                <div class="row">
+                  <div class="col-xxl-3 col-xl-4 col-lg-6">
+                    <div class="mentor_card_item text-center">
+                      <div class="mentor_image">
+                        <img class="img-fluid" src="asset/img/mentor.png" alt="">
+                      </div>
+                      <h3>Larry Segundo</h3>
+                      <p><img src="asset/img/brifcase.png" alt=""> Web Designer at Apple <span>+ 2 more</span></p>
+                      <div class="coinbase_info">
+                        <h5><img src="asset/img/coin-base2.png" alt=""> 20 - 80</h5>
+                      </div>
+                      <a href="#" class="btn btn-outline-main d-block">Connect</a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-4 col-lg-6">
+                    <div class="mentor_card_item text-center">
+                      <div class="mentor_image">
+                        <img class="img-fluid" src="asset/img/mentor.png" alt="">
+                      </div>
+                      <h3>Larry Segundo</h3>
+                      <p><img src="asset/img/brifcase.png" alt=""> Web Designer at Apple <span>+ 2 more</span></p>
+                      <div class="coinbase_info">
+                        <h5><img src="asset/img/coin-base2.png" alt=""> 20 - 80</h5>
+                      </div>
+                      <a href="#" class="btn btn-outline-main d-block">Connect</a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-4 col-lg-6">
+                    <div class="mentor_card_item text-center">
+                      <div class="mentor_image">
+                        <img class="img-fluid" src="asset/img/mentor.png" alt="">
+                      </div>
+                      <h3>Larry Segundo</h3>
+                      <p><img src="asset/img/brifcase.png" alt=""> Web Designer at Apple <span>+ 2 more</span></p>
+                      <div class="coinbase_info">
+                        <h5><img src="asset/img/coin-base2.png" alt=""> 20 - 80</h5>
+                      </div>
+                      <a href="#" class="btn btn-outline-main d-block">Connect</a>
+                    </div>
+                  </div>
+                  <div class="col-xxl-3 col-xl-4 col-lg-6">
+                    <div class="mentor_card_item text-center">
+                      <div class="mentor_image">
+                        <img class="img-fluid" src="asset/img/mentor.png" alt="">
+                      </div>
+                      <h3>Larry Segundo</h3>
+                      <p><img src="asset/img/brifcase.png" alt=""> Web Designer at Apple <span>+ 2 more</span></p>
+                      <div class="coinbase_info">
+                        <h5><img src="asset/img/coin-base2.png" alt=""> 20 - 80</h5>
+                      </div>
+                      <a href="#" class="btn btn-outline-main d-block">Connect</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pagination_area text-end">
+                <ul>
+                  <li><a href="#"><i class="far fa-arrow-left"></i> Previous</a></li>
+                  <li><span>4</span> of 50</li>
+                  <li class="active"><a href="#">Next <i class="far fa-arrow-right"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- all javascript load here -->
+  <script src="asset/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="asset/js/bootstrap.min.js"></script>
+</body>
+
+</html>

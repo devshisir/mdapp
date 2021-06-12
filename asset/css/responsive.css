@@ -1,0 +1,646 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1401px) and (max-width: 1600px) {
+   #header .container-fluid {
+      width: 91%;
+   }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+   #header .container-fluid {
+      width: 97%;
+   }
+
+   #banar_area .container-fluid {
+      padding: 0px 0px 0px 70px !important;
+   }
+   .session_card_wrapper .offer_card_item{
+      margin-bottom: 20px !important;
+   }
+   .meet_mentors_main_wrapper .mentor_card_item{
+      margin-bottom: 20px;
+   }
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+   #header .container-fluid {
+      width: 98%;
+   }
+
+   #header {
+      padding: 10px 0px;
+   }
+
+   #banar_area .container-fluid {
+      padding: 0px 0px 0px 70px !important;
+   }
+
+   #banar_area .banar_content h1 {
+      font-size: 40px;
+      line-height: 54px;
+   }
+
+   #banar_area .banar_content h3 {
+      font-size: 18px;
+      line-height: 30px;
+   }
+
+   #banar_area .banar_content p {
+      font-size: 15px;
+   }
+
+   .offer_card_item {
+      margin-bottom: 25px;
+   }
+
+   .how_its_works_item .number .number_arrow_image {
+      width: 200px;
+   }
+
+   .how_its_works_item h3 {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .mentor_card_item {
+      margin-bottom: 25px;
+   }
+
+   #footer_area .footer_link {
+      margin-bottom: 25px;
+   }
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+   #header .container-fluid {
+      width: 98%;
+   }
+
+   #header {
+      padding: 10px 0px;
+   }
+
+   #banar_area .container-fluid {
+      padding: 0px 0px 0px 70px !important;
+   }
+
+   #banar_area .banar_content h1 {
+      font-size: 30px;
+      line-height: 45px;
+   }
+
+   #banar_area .banar_content h3 {
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 10px;
+   }
+
+   #banar_area .banar_content p {
+      font-size: 14px;
+   }
+
+   #banar_area .banar_content a {
+      margin-top: 20px;
+   }
+
+   #offer_area {
+      padding: 60px 0px;
+   }
+
+   .title_blocks h3 {
+      font-size: 27px;
+   }
+
+   .title_blocks p {
+      width: 100%;
+   }
+
+   .offer_card_item {
+      margin-bottom: 25px;
+   }
+
+   .how_its_works_item {
+      margin-bottom: 30px;
+      width: 60%;
+      text-align: center;
+   }
+
+   #how_its_works {
+      padding: 60px 0px;
+   }
+
+   .how_its_works_item .number .number_arrow_image {
+      display: none;
+   }
+
+   .how_its_works_item .number .number_box {
+      margin: 0 auto;
+   }
+
+   .how_its_works_item h3 {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .mentor_card_item {
+      margin-bottom: 25px;
+   }
+
+   #footer_area .footer_link {
+      margin-bottom: 25px;
+   }
+
+   #mentor_area {
+      padding: 60px 0px;
+   }
+
+   #mentor_area .mentor_card_wrapper {
+      margin-top: 50px;
+   }
+
+   #earn_credit {
+      padding: 60px 0px;
+   }
+
+   #earn_credit .earn_credit_wrapper {
+      margin-top: 50px;
+   }
+
+   #footer_area .footer_info {
+      padding-top: 20px;
+   }
+
+   #footer_area {
+      padding: 60px 0px;
+   }
+
+   #banar_area {
+      padding-bottom: 60px;
+   }
+   .sessions_dashboard .search_session{
+      text-align: left !important;
+   }
+   .sessions_dashboard .search_session .search_with_icon{
+      float: left !important;
+      margin-top: 15px;
+   }
+}
+
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   #header .container-fluid {
+      width: 98%;
+   }
+
+   #header {
+      padding: 10px 0px;
+   }
+
+   #banar_area .container-fluid {
+      padding: 0px 40px !important;
+   }
+
+   #banar_area .banar_content {
+      text-align: center;
+      margin-top: 30px;
+   }
+
+   #banar_area .banar_content h1 {
+      font-size: 30px;
+      line-height: 45px;
+   }
+
+   #banar_area .banar_content h3 {
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 10px;
+   }
+
+   #banar_area .banar_content h3 br {
+      display: none;
+   }
+
+   #banar_area .banar_content p {
+      font-size: 14px;
+   }
+
+   #banar_area .banar_content a {
+      margin-top: 20px;
+   }
+
+   #offer_area {
+      padding: 60px 0px;
+   }
+
+   .title_blocks h3 {
+      font-size: 22px;
+   }
+
+   .title_blocks p {
+      width: 100%;
+   }
+
+   .offer_card_item {
+      margin: 0 auto;
+      margin-bottom: 25px;
+      width: 80%;
+   }
+
+   #offer_area .offer_card_main_area {
+      margin-top: 30px;
+   }
+
+   .how_its_works_item {
+      margin-bottom: 30px;
+      width: 80%;
+      text-align: center;
+   }
+
+   #how_its_works {
+      padding: 60px 0px;
+   }
+
+   .how_its_works_item .number .number_arrow_image {
+      display: none;
+   }
+
+   .how_its_works_item .number .number_box {
+      margin: 0 auto;
+   }
+
+   .how_its_works_item h3 {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .mentor_card_item {
+      margin: 0 auto;
+      margin-bottom: 25px;
+      width: 80%;
+   }
+
+   #footer_area .footer_link {
+      margin-bottom: 25px;
+   }
+
+   #mentor_area {
+      padding: 60px 0px;
+   }
+
+   #mentor_area .mentor_card_wrapper {
+      margin-top: 50px;
+   }
+
+   #earn_credit {
+      padding: 60px 0px;
+   }
+
+   #earn_credit .earn_credit_wrapper {
+      margin-top: 50px;
+   }
+
+   #footer_area .footer_info {
+      padding-top: 20px;
+   }
+
+   #footer_area {
+      padding: 60px 0px;
+   }
+
+   #banar_area {
+      padding-bottom: 60px;
+   }
+
+   #header .menu_area nav ul li a {
+      font-size: 13px;
+   }
+
+   .btn-main {
+      font-size: 13px;
+   }
+
+   .small_reverse {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   #footer_area .footer_copyright .copyright {
+      text-align: center;
+   }
+
+   #footer_area .footer_copyright .footer_copylink {
+      text-align: center !important;
+      margin-top: 5px;
+   }
+
+   #footer_area .footer_copyright {
+      padding-bottom: 0px;
+      padding-top: 30px;
+   }
+
+   #dashboard_header .dashboard_header_logo{
+      text-align: center;
+   }
+
+   #dashboard_header .dashboard_header_right{
+      padding-top: 20px;
+   }
+
+   #dashboard_header{
+      height: auto;
+      padding: 10px 0px;
+   }
+
+   .app_main_wrapper{
+      flex-direction: column;
+   }
+
+   .app_main_wrapper .app_sidebar{
+      width: 100%;
+   }
+
+   .app_main_wrapper .app_sidebar .app_sidebar_wrapper{
+      padding: 0px 0px;
+   }
+
+   .app_main_wrapper .app_sidebar .app_sidebar_wrapper ul li{
+      display: inline-block;
+   }
+
+   .app_main_wrapper .app_main_container .app_content_wrapper{
+      padding: 30px 30px;
+   }
+
+   .sessions_dashboard .search_session{
+      text-align: left !important;
+   }
+   .sessions_dashboard .search_session .search_with_icon{
+      float: left !important;
+      margin-top: 15px;
+      width: 90%;
+   }
+
+   .session_card_wrapper .offer_card_item{
+      width: 90% !important;
+   }
+
+   .meet_mentors_main_wrapper .mentor_card_item{
+      width: 90% !important;
+   }
+
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+   #header .container-fluid {
+      width: 98%;
+   }
+
+   #header {
+      padding: 10px 0px;
+   }
+
+   #banar_area .container-fluid {
+      padding: 0px 0px !important;
+   }
+
+   #banar_area .banar_content {
+      text-align: center;
+      margin-top: 30px;
+      padding: 0px 20px;
+   }
+
+   #banar_area .banar_content h1 {
+      font-size: 30px;
+      line-height: 45px;
+   }
+
+   #banar_area .banar_content h3 {
+      font-size: 16px;
+      line-height: 26px;
+      margin-top: 10px;
+   }
+
+   #banar_area .banar_content h3 br {
+      display: none;
+   }
+
+   #banar_area .banar_content p {
+      font-size: 14px;
+   }
+
+   #banar_area .banar_content a {
+      margin-top: 20px;
+      display: block;
+   }
+
+   #offer_area {
+      padding: 60px 0px;
+   }
+
+   .title_blocks h3 {
+      font-size: 22px;
+   }
+
+   .title_blocks p {
+      width: 100%;
+   }
+
+   .offer_card_item {
+      margin: 0 auto;
+      margin-bottom: 25px;
+      width: 100%;
+   }
+
+   #offer_area .offer_card_main_area {
+      margin-top: 30px;
+   }
+
+   .how_its_works_item {
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center;
+   }
+
+   #how_its_works {
+      padding: 60px 0px;
+   }
+
+   .how_its_works_item .number .number_arrow_image {
+      display: none;
+   }
+
+   .how_its_works_item .number .number_box {
+      margin: 0 auto;
+   }
+
+   .how_its_works_item h3 {
+      font-size: 18px;
+      line-height: 28px;
+   }
+
+   .mentor_card_item {
+      margin: 0 auto;
+      margin-bottom: 25px;
+      width: 100%;
+   }
+
+   #footer_area .footer_link {
+      margin-bottom: 25px;
+   }
+
+   #mentor_area {
+      padding: 60px 0px;
+   }
+
+   #mentor_area .mentor_card_wrapper {
+      margin-top: 50px;
+   }
+
+   #earn_credit {
+      padding: 60px 0px;
+   }
+
+   #earn_credit .earn_credit_wrapper {
+      margin-top: 50px;
+   }
+
+   #footer_area .footer_info {
+      padding-top: 20px;
+   }
+
+   #footer_area {
+      padding: 60px 0px;
+   }
+
+   #banar_area {
+      padding-bottom: 60px;
+   }
+
+   #header .menu_area nav ul li a {
+      font-size: 15px;
+   }
+
+   .btn-main {
+      font-size: 13px;
+   }
+
+   .small_reverse {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   #footer_area .footer_copyright .copyright {
+      text-align: center;
+   }
+
+   #footer_area .footer_copyright .footer_copylink {
+      text-align: center !important;
+      margin-top: 5px;
+   }
+
+   #footer_area .footer_copyright {
+      padding-bottom: 0px;
+      padding-top: 30px;
+   }
+
+   #header .logo_area {
+      text-align: center;
+   }
+
+   #header .right_btn {
+      text-align: center !important;
+   }
+
+   #header .menu_area {
+      padding: 14px 0px;
+   }
+
+   #header .right_btn a {
+      display: block;
+   }
+
+
+   #dashboard_header .dashboard_header_logo{
+      text-align: center;
+   }
+
+   #dashboard_header .dashboard_header_right{
+      padding-top: 20px;
+   }
+
+   #dashboard_header{
+      height: auto;
+      padding: 10px 0px;
+   }
+
+   .app_main_wrapper{
+      flex-direction: column;
+   }
+
+   .app_main_wrapper .app_sidebar{
+      width: 100%;
+   }
+
+   .app_main_wrapper .app_sidebar .app_sidebar_wrapper{
+      padding: 0px 0px;
+   }
+
+   .app_main_wrapper .app_sidebar .app_sidebar_wrapper ul li{
+      display: inline-block;
+   }
+
+   .app_main_wrapper .app_main_container .app_content_wrapper{
+      padding: 20px 20px;
+   }
+
+   .sessions_dashboard .search_session{
+      text-align: left !important;
+   }
+   .sessions_dashboard .search_session .search_with_icon{
+      float: left !important;
+      margin-top: 15px;
+      width: 100%;
+   }
+
+   .session_card_wrapper .offer_card_item{
+      width: 100% !important;
+   }
+
+   .meet_mentors_main_wrapper .mentor_card_item{
+      width: 100% !important;
+   }
+
+   #dashboard_header .dashboard_header_right{
+      flex-direction: column;
+   }
+   #dashboard_header .right_btn{
+      text-align:  center !important;
+      width: 100%;
+   }
+
+   #dashboard_header .right_btn a{
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+   }
+
+   .app_main_wrapper .app_sidebar .app_sidebar_wrapper ul li a{
+      font-size: 11px;
+      padding: 16px 18px;
+   }
+
+   .app_main_wrapper .app_main_container .welcome_message h3{
+      font-size: 25px;
+   }
+
+   .app_main_wrapper .app_main_container .welcome_message p{
+      font-size: 14px;
+   }
+
+}
